@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('build') {
             steps {
-                echo "new Clarusway_Way to Reinvent Yourself"
+                echo "new isd Clarusway_Way to Reinvent Yourself"
                 sh 'echo using shell within Jenkinsfile'
                 echo 'not using shell in the Jenkinsfile'
             }
